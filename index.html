@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a9a5ab507c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class=" navbar bg-sky-100 mt-16 p-12 ">
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-3xl ml-16 text-start">Interactive <br>
+                    Geometry Genius</a>
+            </div>
+            <div class="flex-none">
+                <div>
+                    <button class="btn mr-16 text-xl bg-blue-600 ">Blog</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="flex ml-16">
+            <div class="grid grid-cols-3 justify-around w-[80%] ">
+                <div class="card w-96 bg-base-100 shadow-xl mb-5 hover:bg-sky-400">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/triangle.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Triangle!</h2>
+                        <p>Area (A) =0.5 <i class="fa-solid fa-xmark"></i> b <i class="fa-solid fa-xmark"></i> h </p>
+                        <div class="flex">
+                            <div class="form-control">
+
+
+                                <label class="input-group ">
+                                    <input type="text" placeholder="b" class="input input-bordered w-[40%]" />
+                                    <span>cm</span>
+                                </label>
+
+                            </div>
+                            <div class="form-control">
+
+                                <label class="input-group">
+                                    <input type="text" placeholder="h" class="input input-bordered w-[40%]" />
+                                    <span>cm</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-wide bg-blue-600 text-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/rectangle.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Rectangle</h2>
+                        <p>Area (A) =w <i class="fa-solid fa-xmark"></i> I</p>
+                        <div class="flex">
+                            <div class="form-control">
+
+
+                                <label class="input-group ">
+                                    <input type="text" placeholder="w" class="input input-bordered w-[40%]" />
+                                    <span>cm</span>
+                                </label>
+
+                            </div>
+                            <div class="form-control">
+
+                                <label class="input-group">
+                                    <input type="text" placeholder="I" class="input input-bordered w-[40%]" />
+                                    <span>cm</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-wide bg-blue-600 text-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/parallelogram.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Parallelogram</h2>
+                        <p>Area (A) = b <i class="fa-solid fa-xmark"></i> h </p>
+                        <p>b=10cm, h=12cm</p>
+                        <div>
+                            <button class="btn btn-wide bg-blue-600 text-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/rhombus.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Rhombus</h2>
+                        <p>Area (A) =0.5 <i class="fa-solid fa-xmark"></i> d1 <i class="fa-solid fa-xmark"></i> d2 </p>
+                        <p>d1 = 16cm d2 = 8cm </p>
+                       
+                       
+                        <div>
+                            <button class="btn btn-wide bg-blue-600 text-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/pentagon.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Pentagon</h2>
+                        <p>Area (A) =0.5 <i class="fa-solid fa-xmark"></i> p <i class="fa-solid fa-xmark"></i> b </p>
+                                <p>p = 6cm, b = 10cm</p>
+                                
+                                <div>
+                                    <button class="btn btn-wide bg-blue-600 text-bold">Calculate</button>
+                                </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                    <figure class="px-10 pt-10">
+                        <img src="/images/ellipse.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Ellipse</h2>
+                        <p>Area (A) = <span class="font-bold ">&#x213C;</span>ab</p>
+                        <p>a = 10cm, b = 4cm</p>
+                        <div class="flex card-actions">
+                            <input type="text" placeholder="b" cm>
+
+                        </div>
+                        <div>
+                            <button class="btn btn-wide bg-blue-600 text-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+             <textarea class="text-center underline mt-16 border-solid border-2 border-grey-500 mr-56 text-2xl font-bold " name="" id="" cols="60" rows="20">Area Calculation</textarea>
+
+                >
+            </div>
+
+
+        </section>
+    </main>
+    <script src="js/tringle.js"></script>
+</body>
+
+</html>
